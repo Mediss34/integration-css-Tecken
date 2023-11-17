@@ -1,0 +1,586 @@
+
+body
+{
+    min-width: 320px;
+}
+
+/* --------------------------- FONTS -------------------------------------- */
+
+@font-face 
+{
+    font-family: LeagueGothic-Regular;
+    src: url(../fonts/League_Gothic/LeagueGothic-Regular.ttf);
+}
+
+@font-face 
+{
+    font-family: Amicale-Regular;
+    src: url(../fonts/amicale-regular/Amicale-Regular.otf);
+}
+
+/* --------------------------- COULEURS -------------------------------------- */
+
+.vert
+{
+    color:#A7E43B;
+}
+
+.bleu
+{
+    color: #164479;
+}
+
+.orange
+{
+    color:#FF914D;
+}
+
+.svg-orange
+{
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+
+/* --------------------------- HEADER / NAV -------------------------------------- */
+
+
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width:75%;
+    padding: 10px 10px;
+    max-height: 100px;
+}
+
+
+nav ul li 
+{ 
+    list-style-type: none;
+    display: inline;
+    font-size: 33px;
+    font-family: LeagueGothic-Regular, Arial, Helvetica, sans-serif;
+    padding-right: 90px;
+    
+}
+
+nav a
+{
+    color:#164479;
+}
+
+nav a:hover
+{
+    color:#164479;
+    text-decoration: underline;
+}
+
+.logo-tecken {
+    width: 200px;
+    
+}
+
+.logo-mailh {
+    width: 30px;
+    margin-left: 60px;
+}
+
+#menu-burger
+{
+    display:none;
+}
+
+/* --------------------------- BODY -------------------------------------- */
+
+body 
+{
+    background-color: #FAFAFA;    
+    margin: 0px;
+}
+
+p
+{
+    font-family: Amicale-Regular, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* --------------------------- TITRES -------------------------------------- */
+
+h2
+{
+    font-size: 32px;
+    font-family: LeagueGothic-Regular, Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+h3
+{
+    font-size: 32px;
+    font-family: LeagueGothic-Regular, Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin:0;
+}
+
+/* ----------------------- IMAGES / ICONES ----------------------------------- */
+
+.icone100
+{
+    max-width:100px;
+    height: 100px;
+}
+
+.icone25
+{
+    width: 25px;
+    max-width:25px;
+}
+
+.icon_container
+{
+    background-color: #5E6164;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+.icon-main {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+/* --------------------------- SECTIONS -------------------------------------- */
+
+.humantechnology 
+{
+    background-image: url('../images/annie-spratt-QckxruozjRg-unsplash.webp');
+    background-size:cover;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position-y: center;
+    
+}
+
+.onEstSympas 
+{
+    background-image: url('../images/hj-barraza-l2Eb_cV6a7A-unsplash.webp');
+    background-size:cover;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position-y: center;
+
+}
+
+.nosReferences
+{
+    background-image: url('../images/scott-graham-5fNmWej4tAA-unsplash.webp');
+    background-size:cover;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position-y: center;
+}
+
+.titre-section
+{
+    color: #FFFFFF;
+    font-family: LeagueGothic-Regular;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
+
+.content
+{
+ width:75%;
+ margin: 0 auto;
+ display: flex;
+ gap:20px;
+ margin : 5% auto;
+ justify-content: space-around;
+}
+
+
+/* --------------------------- FORMULAIRE CONTACT -------------------------------------- */
+
+.contact
+{
+    background-image: url('../images/bruno-Ylr037KFzpc-unsplash.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact_flex
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    margin: 50px auto;
+}
+
+.coordonnees
+{
+    background-color: #4B4B4B;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 80px;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 5px #868686
+
+}
+
+.ligne_coord
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.form-bgwhite
+{
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0px 5px 5px #868686;
+}
+
+input textarea
+{
+    font-family: Amicale-Regular, Arial, Helvetica, sans-serif;
+}
+
+#objet, #message, #file
+{
+    
+    border-radius: 5px;
+    opacity: 0.6;
+    border-width: 1px;
+    width: 100%;
+}
+
+#nom, #email {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    opacity: 0.6;
+    border-width: 1px ;
+    width: 100%;
+}
+
+
+.bouton-form {
+
+    color: white;
+    border-radius: 5px;
+    background-color: #4B4B4B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+fieldset
+{
+    border: none;
+    display: flex;
+    column-gap: 5px;
+
+}
+
+
+
+/* --------------------------- BOUTONS -------------------------------------- */
+
+.bouton 
+{
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+
+
+.cta 
+{
+
+    background-color: #164479;
+    height: 45px;
+    width: 230px;
+    border: 15px #164479;
+    border-radius: 18px;
+    box-shadow: 5px 8px 4px -3px rgba(0,0,0,0.3);
+}
+    
+
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-family: LeagueGothic-Regular, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    
+    
+    
+}
+
+
+/* --------------------------- FOOTER -------------------------------------- */
+
+footer {
+    
+    color: #FF914D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 97%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+footer ul li {
+
+    font-size: 12px;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+
+}
+
+
+footer ul li img {
+
+    padding-bottom: 7px;
+    padding-left: 15px;
+
+
+}
+    
+
+
+footer a {
+    
+    color: #FF914D
+}
+
+
+
+.icon-footer 
+{
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+}
+
+.iconef 
+{
+margin: 0 auto;
+width:25px;
+}
+
+.icone25 {
+
+    width: 15px;
+    margin:10px;
+
+}
+
+::placeholder {
+
+    color: black;
+    text-align: center;
+    font-size: 10px;
+
+}
+
+.bouton-news {
+
+    border: 10px;
+    background-color: #FAFAFA;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+
+}
+
+.mailf {
+
+    border-radius: 10px;
+    opacity: 0.35;
+
+}
+
+#news-form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* ------------------------- RESPONSIVE ----------------------------------*/
+
+@media screen and (max-width: 992px)
+{
+    nav ul li 
+    { 
+        list-style-type: none;
+        display: inline;
+        font-size: 24px;
+        font-family: LeagueGothic-Regular, Arial, Helvetica, sans-serif;
+        padding-right: 70px;
+    }
+
+    .logo-tecken {
+        width: 150px;    
+    }
+}
+
+
+@media screen and (max-width: 768px)
+{
+    #menu-inline
+    {
+    display: none;
+    }
+
+
+    #menu-burger
+    {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    }
+
+    #menu-burger > img 
+    {
+        width: 25px;
+    }
+
+    .logo-tecken {
+        width: 100px;    
+    }
+
+    .content
+    {
+        width:75%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        margin : 5% auto;
+        justify-content: space-around;
+    }
+
+    .content > div
+    {
+        margin: 50px auto;
+    }
+
+    .contact
+    {
+        margin: auto;
+        width: 100%;
+        background-color: grey;
+
+    }
+
+    .contact_flex {
+
+        background-size: 20%;
+        display: flex;
+        flex-direction:column ;
+        align-items: center;
+        margin: 50px auto;
+
+    }
+
+    .coordonnees {
+
+        width: 400px;
+
+    }
+    
+    .form-bgwhite{
+
+        width: 400px;
+
+    }
+
+
+    footer {
+    
+        color: #FF914D;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        width: 75%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    footer > div
+    {
+        margin:50px auto;
+    }
+    
+
+
+    .contact_flex {
+
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .contact_flex {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+}
+
+
+
+
