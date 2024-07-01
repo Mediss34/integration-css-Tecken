@@ -114,6 +114,11 @@ a {
 
 /* --------------------------- TITRES -------------------------------------- */
 
+h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
 h2
 {
     font-size: 32px;
@@ -159,6 +164,13 @@ h3
 
 }
 
+.icon-p {
+
+    margin-right: 120px;
+    margin-left: 140px;
+
+}
+
 /* --------------------------- SECTIONS -------------------------------------- */
 
 .humantechnology 
@@ -181,7 +193,7 @@ h3
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position-y: center;
+    background-position-y: 60%;
 
 }
 
@@ -193,7 +205,7 @@ h3
     display: flex;
     align-items: center;
     justify-content: center;
-    background-position-y: center;
+    background-position-y: 45%;
 }
 
 .titre-section
@@ -201,8 +213,8 @@ h3
     color: #FFFFFF;
     font-family: LeagueGothic-Regular;
     font-weight: bold;
-    font-size: 40px;
-    letter-spacing: 0.1em;
+    font-size: 80px;
+    letter-spacing: 5px;
 }
 
 .content
@@ -215,7 +227,11 @@ h3
  justify-content: space-around;
 }
 
+.justify {
 
+    text-align: center;
+
+}
 /* --------------------------- FORMULAIRE CONTACT -------------------------------------- */
 
 .contact
@@ -236,7 +252,6 @@ h3
     align-items: center;
     justify-content: center;
     width: 75%;
-    margin: 50px auto;
 }
 
 .coordonnees
@@ -245,7 +260,10 @@ h3
     display: flex;
     flex-direction: column;
     border-radius: 5px;
-    padding: 80px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #FFFFFF;
     box-shadow: 0px 5px 5px #868686
 
@@ -263,8 +281,11 @@ h3
 .form-bgwhite
 {
     background-color: #FFFFFF;
-    padding: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 0px;
     box-shadow: 0px 5px 5px #868686;
+    
 }
 
 input textarea
@@ -307,10 +328,15 @@ fieldset
     border: none;
     display: flex;
     column-gap: 5px;
+    padding-left: 0;
 
 }
 
+.titre-contact{
 
+    padding-bottom: 30px;
+
+}
 
 /* --------------------------- BOUTONS -------------------------------------- */
 
