@@ -171,6 +171,11 @@ h3
 
 }
 
+.chevron {
+    width: 50px;
+    opacity: 15%;
+}
+
 /* --------------------------- SECTIONS -------------------------------------- */
 
 .humantechnology 
@@ -238,11 +243,14 @@ h3
 {
     background-image: url('../images/bruno-Ylr037KFzpc-unsplash.webp');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: contain;
+    background-size: 800px ;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    object-fit: contain;
+
 }
 
 .contact_flex
