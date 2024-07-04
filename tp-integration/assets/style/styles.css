@@ -45,6 +45,8 @@ body
 /* --------------------------- HEADER / NAV -------------------------------------- */
 
 
+
+
 nav {
     
     display: flex;
@@ -88,16 +90,32 @@ nav a:hover
     margin-left: 60px;
 }
 
-#menu-burger
-{
-    display:none;
+.menu-burger {
+
+    width: 35px;
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+
 }
+
+.logo-nav {
+
+    display: none;
+    position: absolute;
+    width: 100px;
+    top: 20px;
+    right: 50px;
+
+}
+
 
 /* --------------------------- BODY -------------------------------------- */
 
 body 
 {
-    background-color:#fafafa;    
+    background-color:white;    
     margin: 0px;
 }
 
@@ -116,7 +134,7 @@ a {
 
 main {
 
-    background-color: #eeeeee;
+    background-color: #dedeff;
 
 }
 
@@ -402,7 +420,7 @@ footer {
     align-items: flex-start;
     margin: 0 auto;
     width: 97%;
-    padding-top: 0px;
+    padding-top: 20px;
     padding-bottom: 0px;
 }
 
@@ -511,6 +529,12 @@ width:40px;
 
 }
 
+.footer-adress {
+
+    padding: 0;
+
+}
+
 /* ------------------------- RESPONSIVE ----------------------------------*/
 
 @media screen and (max-width: 992px)
@@ -530,30 +554,8 @@ width:40px;
 }
 
 
-@media screen and (max-width: 1210px)
+@media screen and (max-width: 1250px)
 {
-    #menu-inline
-    {
-    display: none;
-    }
-
-
-    #menu-burger
-    {
-    display: flex;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 0px;
-    }
-
-    #menu-burger > img 
-    {
-        width: 25px;
-    }
 
     .logo-tecken {
         width: 100px;    
@@ -579,7 +581,7 @@ width:40px;
     {
         margin: auto;
         width: 100%;
-        background-color: grey;
+        background-color: #eeeeee;
 
     }
 
@@ -595,13 +597,13 @@ width:40px;
 
     .coordonnees {
 
-        width: 400px;
+        width: 250px;
 
     }
     
     .form-bgwhite{
 
-        width: 400px;
+        width: 200px;
 
     }
 
@@ -647,7 +649,118 @@ width:40px;
 
     }
 
+    .chevron {
 
+        display: none;
+
+    }
+
+    .nom-email {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #nom {
+
+        margin-bottom: 15px;
+
+    }
+
+    .coordonnees {
+
+        display: flex;
+        align-items: center;
+
+    }
+
+    .contact_flex {
+
+        margin: 0;
+        
+
+    }
+
+    .icon-twitter {
+
+        padding: 0;
+
+    }
+
+/* ------------------------- MENU BURGER ----------------------------------*/
+
+    nav {
+
+        padding: 20px 0 20px 75px;
+        justify-content: space-evenly;
+
+
+    }
+
+    .menu-inline {
+
+        position: absolute;
+        background-color: #ffffff;
+        width: 100%;
+        height: 650px;
+        top: 0;
+        left: 0;
+        margin: -100%;
+        transition: all 0.5s ease ;
+        
+
+    }
+
+    .menu-burger {
+
+        display: block;
+       
+    }
+
+    .menu-inline ul {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    nav .menu-inline ul li {
+
+        margin: 110px 0px 0px 100px;
+        font-size: 60px;
+
+    }
+
+    .menu-inline.mobile-menu {
+
+        margin-left: 0;
+        margin-top: 0;
+    
+    }
+
+
+
+    .logo-nav.mobile-menu {
+
+        display: block;
+
+    }
+
+    nav a:hover {
+
+        background-color: #164479;
+        color: white;
+
+    }
+
+    nav a {
+
+        text-decoration: none;
+
+    }
+    
+    
 }
 
 
